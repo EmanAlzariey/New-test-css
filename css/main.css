@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .margin5persent {
+    margin-right:5%;
+    margin-left:5%;
+   
+}
+/* a{
+    color:  #0000EE;} /*standard link: #0000EE (blue) visited link: #551A8B (purple) active link: #EE0000 (red)*/
+
+
+h1{
+    padding-bottom: 1%;
+}
+  p{
+    font-size: 1vw; 
+  }
+  
+   .my-button {
+    color: #fff !important;
+    text-decoration: none;
+    background: #7369d1;
+    font-size: 1.3vw;
+    position: relative; 
+    padding: 0.5vw 1.5vw 0.5vw 1vw;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    
+    }
+
+.my-button:hover {
+      text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+     transition: all 0.4s ease 0s;
+}  
+
+/*Hero Header*/
+#page-header{
+    width: 100%;
+    /* height: 50vh; 70vh; */ /*took the image width*/
+    background-color: cornflowerblue;
+    /* padding: 1%; */
+    font-size: 1.5vw;
+  
+    background-image: url('../images/img_2.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;  
+  }
+
+
+nav {
+    /* background-color:rgba(253, 253, 253, 0.78); */
+    background-color:rgba(71,67,67, 0.78);
+    /* background-color: red; */
+    width: 100%;/*width: 80vw;*/
+    /* height: 50vh; */
+     display: inline-block; 
+     text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    margin:0;    
+ 
+}
+
+/* #nav-section{
+    /* background-color: green; */
+    /* text-align:center;
+
+}  */
+
+
+#re-coded{ /* Re:Coded */
+    
+    font-weight: bold;
+    font-size: 1.8vw;
+    color: white;
+   float: left;
+   margin-left: 10%;
+
+    /*another way to get to re-coded
+    #nav-section > a:nth-of-type(1) {
+  background-color: pink;
+  
+   }*/
+    
+  } 
+
+
+.middle-nav{ /*home cource program teachers*/
+    /* background-color: #33dde3; */
+    cursor: pointer;
+    display: inline-block;
+    /* margin-top:5%;  */
+    
+}
+
+.middle-nav a:hover{
+
+    border-bottom: 5px solid black;
+    border-bottom-width: 3px;
+}
+
+#nav-section{
+
+/* background-color: greenyellow; */
+padding-bottom: 3%;
+padding-top: 3%;
+}
+
+ /*all anchors in nav bar only recoded and contact us*/
+/* #nav-section a { 
+    background-color: pink;
+    margin-top:5%; 
+    text-align:center;
+} */
+nav #nav-section > a:last-of-type{ /*Contact us*/
+    /* background-color: darkred; */
+    /* text-align: center; */
+    /* display: inline; */
+    float: right;
+    margin-right: 10%;
+    
+    
+    }
+
+nav #center-nav{
+    /* background-color: purple; */
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 6%;
+     color: whitesmoke;
+}
+
+
+ 
+.menu {
+    font-size: 1.5vw;
+    padding: 0vh 2vw 0vh 2vw;
+    text-decoration: none;
+    font-family: 'Germania One';
+    /* color: forestgreen; */
+    color: whitesmoke;
+}
+ 
+.menuitem {
+    text-decoration: none;
+    padding: 1vw 4vh 1vw 4vh;
+    font-family: 'Lobster';
+    font-size: 1.5vw;
+    color: black;
+}
+ 
+.menuitem:hover {
+     background-color: rgba(247, 245, 245, 0.47); 
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 14vw;
+    min-height: 20vh;
+    padding: 12px 16px;
+    z-index: 1;
+    text-align: center;
+    background-color: rgba(253, 246, 246, 0.6);
+    border-radius: 5%;
+}
+ 
+.dropdown-content a {
+    display: inline-block;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*end hero header*/
+
+.main-section{
+  
+    float:left;
+    width:50%;
+    height: 80vh;  
+    display: block;
+   /* margin-right: 2.5%; */
+   padding-top:5%;
+   background-color: red;
+ 
+  }
+
+
+.side div { 
+    height: 200vh; 
+    width: 30%; 
+    padding-top:5%;
+    float: right;
+    background-color: greenyellow; 
+    padding-left: 2%; 
+    margin-bottom: 5%;
+    margin-right:5%; /*I guess the generel margin in marigin-section disables cause of float right*/
+    
+        }
+
+#More-courses{
+        background: #33dde3;
+        /* padding: 1%; */
+        font-size: 2.5vw;
+        margin-top: 10%;
+        text-align: center;
+        /* padding-top: 3%;
+        padding-bottom: 6%; */
+        padding: 8% 10% 20% 10%;
+            
+    }
+
+    #comment-section{
+        background-color: blue;
+        margin-top:40%;
+        width:50%;
+    }
+
